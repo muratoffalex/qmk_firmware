@@ -5,3 +5,5 @@
 
 #pragma once
 
+#define SPLIT_WPM_ENABLE
+#define SPLIT_LED_STATE_ENABLE
