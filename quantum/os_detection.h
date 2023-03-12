@@ -24,6 +24,7 @@ typedef enum {
     OS_LINUX,
     OS_WINDOWS,
     OS_MACOS,
+    OS_NINTENDO_SWITCH,
     OS_IOS,
 } os_variant_t;
 

@@ -40,6 +40,7 @@ ChibiOS:
 Windows 10: [FF, FF, 4, 24, 4, 24, 4, FF, 24, FF, 4, FF, 24, 4, 24, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A, 20A]
 Windows 10 (another host): [FF, FF, 4, 24, 4, 24, 4, 24, 4, 24, 4, 24]
 macOS 12.5: [2, 24, 2, 28, FF]
+macOS 13: [2, 24, 2, 28, FF]
 iOS/iPadOS 15.6: [2, 24, 2, 28]
 Linux (including Android, Raspberry Pi and WebOS TV): [FF, FF, FF]
 PS5: [2, 4, 2, 28, 2, 24]
