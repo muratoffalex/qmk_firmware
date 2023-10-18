@@ -364,6 +364,9 @@ static void print_status_narrow(void) {
         case U_TAP:
             oled_write("TAP", false);
             break;
+        case U_GAME:
+            oled_write_ln("GAME", true);
+            break;
         default:
             oled_write("UNDEF", false);
     }
