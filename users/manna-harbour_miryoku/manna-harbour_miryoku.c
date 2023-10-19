@@ -12,6 +12,7 @@
 
 enum {
     U_TD_BOOT,
+    U_TD_ESC,
 #define MIRYOKU_X(LAYER, STRING) U_TD_U_##LAYER,
 MIRYOKU_LAYER_LIST
 #undef MIRYOKU_X
@@ -34,6 +35,7 @@ MIRYOKU_LAYER_LIST
 
 tap_dance_action_t tap_dance_actions[] = {
     [U_TD_BOOT] = ACTION_TAP_DANCE_FN(u_td_fn_boot),
+    [U_TD_ESC] = ACTION_TAP_DANCE_DOUBLE(KC_X, KC_ESC),
 #define MIRYOKU_X(LAYER, STRING) [U_TD_U_##LAYER] = ACTION_TAP_DANCE_FN(u_td_fn_U_##LAYER),
 MIRYOKU_LAYER_LIST
 #undef MIRYOKU_X

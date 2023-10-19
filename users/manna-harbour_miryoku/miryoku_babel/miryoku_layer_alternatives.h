@@ -388,15 +388,16 @@ KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NU
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              KC_BTN3,           KC_BTN1,           KC_BTN2,           KC_BTN2,           KC_BTN1,           KC_BTN3,           U_NP,              U_NP
 
-
-// #define MIRYOKU_ALTERNATIVES_GAME \
-// KC_Z,              KC_Q,              KC_W,              KC_E,              KC_R,              KC_Y,              KC_U,              KC_I,              KC_O,              KC_P,              \
-// KC_LSFT,           KC_A,              KC_S,              KC_D,              KC_G,              KC_H,              LSFT_T(KC_J),      LCTL_T(KC_K),      LALT_T(KC_L),      LGUI_T(KC_SCLN),   \
-// KC_LCTL,           KC_X,              KC_C,              KC_V,              KC_B,              KC_N,              KC_M,              KC_COMM,           ALGR_T(KC_DOT),    LT(U_BUTTON,KC_SLSH),\
-// U_NP,              U_NP,              KC_ESC,            KC_SPC,            KC_TAB,            LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP
+/* old game layerq
+#define MIRYOKU_ALTERNATIVES_GAME \
+KC_Z,              KC_Q,              KC_W,              KC_E,              KC_R,              KC_Y,              KC_U,              KC_I,              KC_O,              KC_P,              \
+KC_LSFT,           KC_A,              KC_S,              KC_D,              KC_G,              KC_H,              LSFT_T(KC_J),      LCTL_T(KC_K),      LALT_T(KC_L),      LGUI_T(KC_SCLN),   \
+KC_LCTL,           KC_X,              KC_C,              KC_V,              KC_B,              KC_N,              KC_M,              KC_COMM,           ALGR_T(KC_DOT),    LT(U_BUTTON,KC_SLSH),\
+U_NP,              U_NP,              KC_ESC,            KC_SPC,            KC_TAB,            LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP
+*/
 
 #define MIRYOKU_ALTERNATIVES_GAME \
 KC_Z,              KC_1,              KC_2,              KC_3,              KC_4,              KC_F1,              KC_F2,              KC_F3,              KC_O,              KC_P,              \
 KC_LSFT,           KC_Q,              KC_W,              KC_E,              KC_R,              KC_H,              LSFT_T(KC_J),      LCTL_T(KC_K),      LALT_T(KC_L),      LGUI_T(KC_SCLN),   \
 KC_LCTL,           KC_A,              KC_S,              KC_D,              KC_G,              KC_N,              KC_M,              KC_COMM,           ALGR_T(KC_DOT),    LT(U_BUTTON,KC_SLSH),\
-U_NP,              U_NP,              KC_ESC,            KC_SPC,            KC_V,              LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP
+U_NP,              U_NP,              TD(U_TD_ESC),      KC_SPC,            KC_V,              LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP
